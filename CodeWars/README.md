@@ -6,7 +6,9 @@
 
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
 
-Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+## Example: 
+
+The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
 ## My Solution:
 
@@ -34,4 +36,3 @@ console.log(`The number of set bits in the binary representation of ${number} is
 In this function, we use a ``while`` loop to iterate through each bit of the input integer ``n``. We use a bitwise AND operation with ``1`` to check the least significant bit, and if it's ``1``, we increment the ``count``. Then, we right-shift the number ``n`` by one bit to check the next bit. We continue this process until ``n`` becomes zero. The final count will represent the number of bits set to ``1`` in the binary representation of the input integer.
 
 ![Test Run 1](https://i.imgur.com/RwbwEiR.png)
-
