@@ -9,22 +9,23 @@ Write code that enhances all arrays such that you can call the array.last() meth
 You may assume the array is the output of JSON.parse.
 
 
-###Example 1:
+### Example 1:
 
-Input: nums = [null, {}, 3]
-Output: 3
-Explanation: Calling nums.last() should return the last element: 3.
-Example 2:
+``Input: nums = [null, {}, 3]``
+``Output: 3``
+``Explanation: Calling nums.last() should return the last element: 3.``
 
-Input: nums = []
-Output: -1
-Explanation: Because there are no elements, return -1.
+### Example 2:
+
+``Input: nums = []``
+``Output: -1``
+``Explanation: Because there are no elements, return -1.``
  
 
-###Constraints:
+### Constraints:
 
 arr is a valid JSON array
-0 <= arr.length <= 1000
+``0 <= arr.length <= 1000``
 
 ## My Solution:
 
@@ -55,4 +56,3 @@ When you call ``nums.last()`` or ``emptyArray.last(),`` it runs this extended ``
 
 ![Test Run 1](https://i.imgur.com/U0MPjGg.png)
 ![Test Run 2](https://i.imgur.com/OZQJ3Gi.png)
-
